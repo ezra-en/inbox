@@ -140,7 +140,7 @@
       {
         label: 'DMARC-Record',
         slot: 'dmarc-record',
-        status: domainDnsQuery.value?.dnsStatus?.dmarkPolicy || null
+        status: domainDnsQuery.value?.dnsStatus?.dmarcPolicy || null
       }
     ];
   });
